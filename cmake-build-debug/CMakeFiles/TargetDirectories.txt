@@ -1,0 +1,8 @@
+C:/Games/ChronosImperium/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Games/ChronosImperium/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Games/ChronosImperium/cmake-build-debug/engine/CMakeFiles/chronos_engine.dir
+C:/Games/ChronosImperium/cmake-build-debug/engine/CMakeFiles/edit_cache.dir
+C:/Games/ChronosImperium/cmake-build-debug/engine/CMakeFiles/rebuild_cache.dir
+C:/Games/ChronosImperium/cmake-build-debug/desktop/CMakeFiles/chronos_desktop.dir
+C:/Games/ChronosImperium/cmake-build-debug/desktop/CMakeFiles/edit_cache.dir
+C:/Games/ChronosImperium/cmake-build-debug/desktop/CMakeFiles/rebuild_cache.dir

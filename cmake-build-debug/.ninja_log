@@ -1,0 +1,12 @@
+# ninja log v6
+17	309	7940065690133465	build.ninja	3ecac4cbfd4cfa7b
+10	679	7939989724077258	desktop/CMakeFiles/chronos_desktop.dir/main.cpp.obj	ff0c708996a1ce16
+711	998	7939988254966618	engine/libchronos_engine.a	adaabab40cef38d6
+5	709	7939988247902776	engine/CMakeFiles/chronos_engine.dir/src/GameEngine.cpp.obj	491e0ac705f77ccc
+680	825	7939989730773781	desktop/chronos_desktop.exe	be5cdc64a2e8b615
+25	268	7940067208169244	engine/CMakeFiles/chronos_engine.dir/src/Planet.cpp.obj	2b476ac7bc191a52
+39	953	7940067208308867	engine/CMakeFiles/chronos_engine.dir/src/GameEngine.cpp.obj	491e0ac705f77ccc
+34	1167	7940067208249055	engine/CMakeFiles/chronos_engine.dir/src/Universe.cpp.obj	2d75b09d0a2f71f6
+1168	1303	7940067219590308	engine/libchronos_engine.a	55aa4fb2b9036bdd
+269	2194	7940067210602726	desktop/CMakeFiles/chronos_desktop.dir/main.cpp.obj	ff0c708996a1ce16
+2195	2609	7940067229860163	desktop/chronos_desktop.exe	be5cdc64a2e8b615
