@@ -3,6 +3,7 @@
 #include <chrono>
 
 #include "chronos/GameEngine.h"
+#include "chronos/Universe.h"
 
 int main()
 {
@@ -18,6 +19,12 @@ int main()
         std::cout << "Tick: " << engine.currentTick() << std::endl;
 
         std::this_thread::sleep_for(std::chrono::seconds(1));
+
+        const auto& planets = engine.universe().planets();
+
+        std::cout << "Metal on home planet: "
+                  << planets[0].resources().metal
+                  << std::endl;
     }
 
     return 0;

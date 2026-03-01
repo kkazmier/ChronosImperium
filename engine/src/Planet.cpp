@@ -9,12 +9,34 @@ namespace chronos {
 
     void Planet::update(int64_t deltaTicks)
     {
-        // Na razie nic — produkcję dodamy później
+        const double baseProduction = 1.0; // metal per tick per level
+
+        double produced =
+            baseProduction *
+            static_cast<double>(m_metalMineLevel) *
+            static_cast<double>(deltaTicks);
+
+        m_resources.metal += produced;
     }
 
     Resources& Planet::resources()
     {
         return m_resources;
+    }
+
+    const Resources& Planet::resources() const
+    {
+        return m_resources;
+    }
+
+    int Planet::metalMineLevel() const
+    {
+        return m_metalMineLevel;
+    }
+
+    void Planet::setMetalMineLevel(int level)
+    {
+        m_metalMineLevel = level;
     }
 
 }

@@ -21,4 +21,9 @@ namespace chronos {
         return m_currentTick;
     }
 
+    const Universe& GameEngine::universe() const
+    {
+        return m_universe;
+    }
+
 }

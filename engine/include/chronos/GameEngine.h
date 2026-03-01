@@ -12,6 +12,7 @@ namespace chronos {
 
         void update(Tick delta);
         Tick currentTick() const;
+        const Universe& universe() const;
 
     private:
         Tick m_currentTick;
